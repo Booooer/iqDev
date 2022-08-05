@@ -3,13 +3,11 @@ new AirDatepicker('#airdatepicker',{})
 
 // Скрит чекбокса ежемесячного пополнения
 function Appearance(){
-  let sumAdd = document.querySelector('.sumAdd')
   
   document.getElementById('sumAdd').classList.toggle('req')
   document.getElementById('calc-month').classList.toggle('calc-month-pay-on')
   document.getElementById('sumAdd-error').style.visibility = 'hidden'
   
-  sumAdd.value = 0
 }
 // Валидация формы
 const form = document.getElementById('calcForm')
