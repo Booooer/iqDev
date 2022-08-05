@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #E9E9E9
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+input{
+  padding: 0 0 0 10px;
+  border-radius: 0px;
+  margin: 0 0 50px 0;
+  border: none;
+}
+input:focus{
+  outline: none;
+}
+select{
+  border-radius: 0px;
+  height: 53px;
+  border: none;
+}
+/**************************************************************************
+                              header
+*************************************************************************/
+header{
+  width: 100%;
+  height: 44px;
+  background-color: #1F2229;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+header img{
+  padding: 0 25px 0 0;
+  margin: 0 0 0 -25px;
+}
+header p{
+  margin: 0 0 3px 0;
+}
+.header-container{
+  width: 800px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+}
+/**************************************************************************
+                              Main
+*************************************************************************/
+main{
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  margin: 50px 0 0 0;
+  text-align: center;
+  font-size: 36px;
+}
+.main-field{
+  width: 800px;
+  background-color: #FAF6F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-label p{
+  margin: 35px 0 0 0;
+  text-align: center;
+  font-size: 12px;
+}
+.main-calc{
+  margin: 100px 0 40px 0;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.calc-date input{
+  width: 242px;
+  height: 53px;
+}
+.calc-time{
+  display: flex;
+}
+.calc-time input{
+  width: 177px;
+  height: 53px;
+}
+.calc-sum input, .calc-percent input{
+  width: 242px;
+  height: 53px;
+}
+.calc-checkbox{
+  display: flex;
+  align-items: center;
+}
+.calc-checkbox input{
+  width: 25px;
+  height: 25px;
+  border-radius: 0px;
+  outline-color: none;
+  margin: 0 10px 0px 0;
+}
+.calc-month-pay{
+  visibility: hidden;
+}
+.calc-month-pay-on{
+  visibility: visible;
+}
+.calc-month-pay input{
+  width: 242px;
+  height: 53px;
+  margin: 0;
+}
+.calc-btn{
+  margin: 70px 0 0 0;
+  padding: 20px 50px 20px 50px;
+  width: 172px;
+  height: 52px;
+  background: #33C4A0;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+.msg{
+  margin: -50px 0 35px 0;
+  padding: 5px;
+  font-size: 12px;
+  color: red;
+  visibility: hidden;
+}
+.msg-sum{
+  margin: 0;
+  position: absolute;
+}
+.error{
+  background: rgba(255, 0, 0, 0.11);
+}
+/**************************************************************************
+                              Answer
+*************************************************************************/
+#response{
+  width: 600px;
+  border-top: 1px solid rgba(0, 0, 0, 0.61);
+  display: none;
+}
+h3{
+  font-weight: 400;
+  font-size: 16px;
+  margin: 10px 0 20px 60px;
+}
+article{
+  font-weight: 700;
+  font-size: 40px;
+  margin: 10px 0 10px 100px;
+}
